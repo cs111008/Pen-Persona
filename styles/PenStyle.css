@@ -1,0 +1,54 @@
+.container-fluid {
+	background: url(../images/siteBG.png)
+}
+.app-container {
+	padding-bottom: 5%;
+}
+.logo-row{
+	text-align: center;
+}
+.logo-row img{
+	width: 25%;
+}
+.notepad-bg {
+	background: url(../images/notepad-middle.png) repeat-y top center;
+    background-position-x: -4px;
+    background-size: 714px 132px;
+}
+.notepad {
+	border: 1px solid #9d9d9d;
+	height: 830px;
+	width: 93.3%;
+    float: left;
+    border-radius: 2%;
+    -moz-box-shadow:    7px 6px 17px 4px rgba(119, 119, 119, 0.87);
+    -webkit-box-shadow: 7px 6px 17px 4px rgba(119, 119, 119, 0.87);
+    box-shadow:         7px 6px 17px 4px rgba(119, 119, 119, 0.87);
+	
+}
+.icon-bar {
+    width: 50px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+	float: right;
+	height: 785px;
+    margin-top: 3%;
+	border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 8px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+    /* background-color: #000; */ /* Add a hover color */
+}
+
+.active {
+   /* background-color: #4CAF50; *//* Add an active/current color */
+}
