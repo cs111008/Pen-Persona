@@ -52,3 +52,35 @@
 .active {
    /* background-color: #4CAF50; *//* Add an active/current color */
 }
+.quiz-title {
+    text-align: center;
+    font-weight: bold;
+}
+.user-info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 4px double rgb(100, 149, 237);
+    background: #F2F2F2;
+    margin-left: 4% !important;
+    margin-right: 0% !important;
+    border-top-right-radius: 15px;
+}
+.user {
+
+}
+.user .user-name {
+
+}
+.question {
+
+}
+.question-number {
+    font-weight: bold;
+}
+.dictionary {
+
+}
+.dictionary-word {
+
+}
